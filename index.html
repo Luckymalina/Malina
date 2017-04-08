@@ -3,11 +3,109 @@
 <head>
   <meta charset="UTF-8">
   <title>Веб-разработка, создание сайтов</title>
+
+  <!-- styles -->
+  <link rel="stylesheet" href="libs/foundation-6.3.1/css/foundation.css">
+  <link rel="stylesheet" href="css/style.css">
+
 </head>
 <body>
- <div class="header">
 
 
+
+ <header class="header">
+   <div class="row header-menu">
+     <nav class="medium-12 large-12 columns">
+       <ul class="header-menu__list menu align-center">
+         <li class="header-menu__item">
+           <a href="#" class="header-menu__link active">Услуги</a>
+         </li>
+         <li class="header-menu__item">
+           <a href="#" class="header-menu__link">Портфолио</a>
+         </li>
+         <li class="header-menu__item">
+           <a href="#" class="header-menu__link">Обо мне</a>
+         </li>
+         <li class="header-menu__item">
+           <a href="#" class="header-menu__link">Отзывы</a>
+         </li>
+         <li class="header-menu__item">
+           <a href="#" class="header-menu__link">Контакты</a>
+         </li>
+       </ul>
+     </nav>
+   </div>
+ </header>
+ <!-- /header -->
+
+<!-- content -->
+ <div class="content-wrapper">
+   <main>
+
+     <div class="promo">
+       <div class="promo-bg"></div>
+       <section class="promo-card">
+         <div class="row align-middle align-center">
+           <div class="medium-12 columns">
+             <article class="promo-card__wrap">
+               <figure class="promo-card__img">
+                 <img src="images/photo.png" alt="Малиновская Ирина">
+               </figure>
+               <div class="promo-card__desc">
+                 <p class="promo-card__name">Ирина Малиновская</p>
+                 <span class="promo-card__status">Веб-разработчик</span>
+               </div>
+             </article>
+           </div>
+         </div>
+       </section>
+     </div>
+     <!-- /banner -->
+
+     <div class="projects">
+       <div class="row">
+         <div class="medium-3 columns">111</div>
+         <div class="medium-3 columns">222</div>
+         <div class="medium-3 columns">333</div>
+         <div class="medium-3 columns">444</div>
+       </div>
+     </div>
+     <!-- /projects -->
+
+   </main>
  </div>
+
+
+
+
+
+
+
+
+
+
+<!-- /content -->
+
+<!-- footer -->
+
+
+
+<!-- / footer -->
+
+
+
+
+<!-- scripts -->
+ <script src="libs/foundation-6.3.1/js/vendor/jquery.min.js"></script>
+ <script src="libs/foundation-6.3.1/js/vendor/what-input.min.js"></script>
+ <script src="libs/foundation-6.3.1/js/foundation.min.js"></script>
+ <script src="js/common.js"></script>
+
+ <script>
+   $(document).foundation();
+ </script>
+
+
+
 </body>
 </html>
