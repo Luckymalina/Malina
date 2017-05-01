@@ -189,7 +189,7 @@ a, a:hover {
 }
 .promo-card_wrap {
     background: rgba(255,255,255,0.7);
-    padding: 45px;
+    padding: 30px;
     -webkit-border-radius: 10px;
     -moz-border-radius: 10px;
     border-radius: 10px;
@@ -211,14 +211,15 @@ a, a:hover {
 .promo-card_name {
     color: #333333;
     font-weight: 300;
-    font-size: 36px;
-    line-height: 40px;
+    font-size: 30px;
+    line-height: 33px;
+    margin: 0 0 10px 0;
 }
 .promo-card_status {
     color: #64544e;
     font-weight: 300;
-    font-size: 30px;
-    line-height: 36px;
+    font-size: 26px;
+    line-height: 30px
 }
 /* /promo */
 
@@ -230,12 +231,12 @@ a, a:hover {
 .services::after {
     content: '';
     position: absolute;
-    top: -303px;
+    top: -99px;
     left: 0;
-    background: url(../images/triangle-separator.png) no-repeat center bottom;
+    background: url(../images/triangle-separator2.png) no-repeat center bottom;
     background-size: cover;
-    height: 318px;
-    min-height: 200px;
+    height: 92px;
+    min-height: 100px;
     width: 100%;
     z-index: 200;
 }
@@ -258,6 +259,11 @@ a, a:hover {
     margin: 30px 0 0 0;
     padding: 0 20px;
     text-align: center;
+}
+.service-desc p {
+    font-size: 17px;
+    font-weight: 300;
+    text-align: left;
 }
 /* / services */
 
@@ -745,7 +751,7 @@ a, a:hover {
 }
 .contacts_title {
     font-weight: 700;
-    margin: 0 20px 0 0;
+    margin: 5px 20px 0 0;
     color: #585858;
 }
 .contacts_item {

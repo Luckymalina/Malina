@@ -31,34 +31,46 @@ $( document ).ready(function() {
     $('input[type=tel]').mask("+7 (999) 999-99-99");
 
     //nav to anchor
-    $('.header-menu__link').on('click', function() {
+    // $('body').on('click', '[data-anchor]', function(e) {
+    //     e.preventDefault();
+    //     var href = $(this).attr('href');
+    //     var section = $(href);
+    //     $('body, html').animate({
+    //         scrollTop: section.offset().top
+    //     }, 1000)
+    // });
+
+
+    $('.header-menu_link').on('click', function() {
 
         var scrollAnchor = $(this).attr('data-scroll'),
-            scrollPoint = $('section[data-anchor="' + scrollAnchor + '"]').offset().top - 10;
+            scrollPoint = $('section[data-anchor="' + scrollAnchor + '"]').offset().top - 80;
 
         $('body,html').animate({
             scrollTop: scrollPoint
-        }, 500);
+        }, 600);
 
         return false;
+
     });
+
 
     $(window).scroll(function() {
         var windscroll = $(window).scrollTop();
         if (windscroll >= 100) {
-            $('.header-menu__list').addClass('fixed');
+            $('.header-menu_list').addClass('fixed');
             $('section').each(function(i) {
-                if ($(this).position().top <= windscroll - 10) {
-                    $('.header-menu__link.active').removeClass('active');
-                    $('.header-menu__link').eq(i).addClass('active');
+                if ($(this).position().top <= windscroll - 60) {
+                    $('.header-menu_link.active').removeClass('active');
+                    $('.header-menu_link').eq(i).addClass('active');
                 }
             });
 
         } else {
 
-            $('.header-menu__list').removeClass('fixed');
-            $('.header-menu__link.active').removeClass('active');
-            $('.header-menu__link:first').addClass('active');
+            $('.header-menu_list').removeClass('fixed');
+            $('.header-menu_link.active').removeClass('active');
+            $('.header-menu_link:first').addClass('active');
         }
 
     }).scroll();
