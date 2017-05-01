@@ -17,21 +17,21 @@
 <header class="header">
   <div class="row header-menu">
     <nav class="medium-12 large-12 columns">
-      <ul class="header-menu__list menu align-center">
-        <li class="header-menu__item">
-          <a href="#" class="header-menu__link active">Услуги</a>
+      <ul class="header-menu_list menu align-center">
+        <li class="header-menu_item">
+          <a href="#" class="header-menu_link" data-scroll="services">Услуги</a>
         </li>
-        <li class="header-menu__item">
-          <a href="#" class="header-menu__link">Портфолио</a>
+        <li class="header-menu_item">
+          <a href="#" class="header-menu_link" data-scroll="portfolio">Портфолио</a>
         </li>
-        <li class="header-menu__item">
-          <a href="#" class="header-menu__link">Обо мне</a>
+        <li class="header-menu_item">
+          <a href="#" class="header-menu_link" data-scroll="about">Обо мне</a>
         </li>
-        <li class="header-menu__item">
-          <a href="#" class="header-menu__link">Отзывы</a>
+        <li class="header-menu_item">
+          <a href="#" class="header-menu_link" data-scroll="reviews">Отзывы</a>
         </li>
-        <li class="header-menu__item">
-          <a href="#" class="header-menu__link">Контакты</a>
+        <li class="header-menu_item">
+          <a href="#" class="header-menu_link" data-scroll="contacts">Контакты</a>
         </li>
       </ul>
     </nav>
@@ -44,17 +44,18 @@
   <main>
 
     <section class="promo">
+
       <div class="promo-bg"></div>
       <article class="promo-card">
         <div class="row align-middle align-center">
           <div class="medium-12 columns">
-            <div class="promo-card__wrap">
-              <figure class="promo-card__img">
+            <div class="promo-card_wrap">
+              <figure class="promo-card_img">
                 <img src="images/photo.png" alt="Малиновская Ирина">
               </figure>
-              <div class="promo-card__desc">
-                <p class="promo-card__name">Ирина Малиновская</p>
-                <span class="promo-card__status">Веб-разработчик</span>
+              <div class="promo-card_desc">
+                <p class="promo-card_name">Ирина Малиновская</p>
+                <span class="promo-card_status">Веб-разработчик</span>
               </div>
             </div>
           </div>
@@ -63,7 +64,7 @@
     </section>
     <!-- /banner -->
 
-    <section class="services">
+    <section id="services" class="services" data-anchor="services">
       <div class="row">
         <div class="medium-12">
           <h2 class="title title--services">Чем я могу быть полезна для вас</h2>
@@ -111,7 +112,7 @@
     </section>
     <!-- /services -->
 
-    <section class="portfolio">
+    <section id="portfolio" class="portfolio" data-anchor="portfolio">
       <div class="row">
         <div class="medium-12">
           <h2 class="title title--portfolio">Портфолио</h2>
@@ -194,7 +195,7 @@
     </section>
     <!-- /portfolio -->
 
-    <section class="about-me">
+    <section id="about-me" class="about-me" data-anchor="about">
       <div class="row">
         <div class="medium-12">
           <h2 class="title title--about-me">Обо мне</h2>
@@ -203,19 +204,23 @@
       <div class="row">
         <div class="medium-12">
           <div class="about-me-description">
-            <p></p>
-            <p></p>
+            <p>Каждый веб-разработчик знает, что такое текст-«рыба». Текст этот, несмотря на название, не имеет никакого
+              отношения к обитателям водоемов. Используется он веб-дизайнерами для вставки на интернет-страницы и демонстрации
+              внешнего вида контента, просмотра шрифтов, абзацев, отступов и т.д. Так как цель применения такого текста
+              исключительно демонстрационная, то и смысловую нагрузку ему нести совсем необязательно. Более того,
+              нечитабельность текста сыграет на руку при оценке качества восприятия макета.
+            </p>
           </div>
           <div class="about-me-tools">
             <h3 class="about-me-tools_title">Инструменты для работы, навыки и опыт</h3>
             <ul class="about-me-tools_list about-me-tools_list--layout">
-              <li class="about-me-tools_item">
+              <li class="about-me-tools_item about-me-tools_item--html">
                 <div class="about-me-tools_pic">
                   <img src="images/ico-html.png" alt="">
                 </div>
                 <div class="about-me-tools_description">
+                  <div class="about-me-tools_bar about-me-tools_bar--html"></div>
                   <h4>HTML / HTML 5</h4>
-                  <div class="about-me-tools_item--html"></div>
                 </div>
               </li>
               <li class="about-me-tools_item">
@@ -223,8 +228,8 @@
                   <img src="images/ico-css3.png" alt="">
                 </div>
                 <div class="about-me-tools_description">
+                  <div class="about-me-tools_bar about-me-tools_bar--css3"></div>
                   <h4>CSS3</h4>
-                  <div class="about-me-tools_item--css3"></div>
                 </div>
               </li>
               <li class="about-me-tools_item">
@@ -232,8 +237,8 @@
                   <img src="images/ico-sass.png" alt="">
                 </div>
                 <div class="about-me-tools_description">
+                  <div class="about-me-tools_bar about-me-tools_bar--sass"></div>
                   <h4>Sass</h4>
-                  <div class="about-me-tools_item--sass"></div>
                 </div>
               </li>
               <li class="about-me-tools_item">
@@ -241,8 +246,8 @@
                   <img src="images/ico-gulp.png" alt="">
                 </div>
                 <div class="about-me-tools_description">
+                  <div class="about-me-tools_bar about-me-tools_bar--gulp"></div>
                   <h4>Gulp</h4>
-                  <div class="about-me-tools_item--gulp"></div>
                 </div>
               </li>
               <li class="about-me-tools_item">
@@ -250,8 +255,8 @@
                   <img src="images/ico-svg.png" alt="">
                 </div>
                 <div class="about-me-tools_description">
+                  <div class="about-me-tools_bar about-me-tools_bar--svg"></div>
                   <h4>SVG</h4>
-                  <div class="about-me-tools_item--svg"></div>
                 </div>
               </li>
               <li class="about-me-tools_item">
@@ -259,8 +264,8 @@
                   <img src="images/ico-bootstrap.png" alt="">
                 </div>
                 <div class="about-me-tools_description">
+                  <div class="about-me-tools_bar about-me-tools_bar--bootstrap"></div>
                   <h4>Bootstrap</h4>
-                  <div class="about-me-tools_item--bootstrap"></div>
                 </div>
               </li>
               <li class="about-me-tools_item">
@@ -268,8 +273,8 @@
                   <img src="images/ico-foundation.png" alt="">
                 </div>
                 <div class="about-me-tools_description">
+                  <div class="about-me-tools_bar about-me-tools_bar--foundation"></div>
                   <h4>Foundation</h4>
-                  <div class="about-me-tools_item--foundation"></div>
                 </div>
               </li>
               <li class="about-me-tools_item">
@@ -277,8 +282,8 @@
                   <img src="images/ico-bem.png" alt="">
                 </div>
                 <div class="about-me-tools_description">
+                  <div class="about-me-tools_bar about-me-tools_bar--bem"></div>
                   <h4>BEM</h4>
-                  <div class="about-me-tools_item--bem"></div>
                 </div>
               </li>
             </ul>
@@ -289,8 +294,8 @@
                   <img src="images/ico-jquery.png" alt="">
                 </div>
                 <div class="about-me-tools_description">
+                  <div class="about-me-tools_bar about-me-tools_bar--jquery"></div>
                   <h4>Jquery</h4>
-                  <div class="about-me-tools_item--qjuery"></div>
                 </div>
               </li>
               <li class="about-me-tools_item">
@@ -298,8 +303,8 @@
                   <img src="images/ico-js.png" alt="">
                 </div>
                 <div class="about-me-tools_description">
+                  <div class="about-me-tools_bar about-me-tools_bar--js"></div>
                   <h4>JavaScript</h4>
-                  <div class="about-me-tools_item--js"></div>
                 </div>
               </li>
               <li class="about-me-tools_item">
@@ -307,8 +312,8 @@
                   <img src="images/ico-wp.png" alt="">
                 </div>
                 <div class="about-me-tools_description">
+                  <div class="about-me-tools_bar about-me-tools_bar--wordpress"></div>
                   <h4>Wordpress</h4>
-                  <div class="about-me-tools_item--wordpress"></div>
                 </div>
               </li>
               <li class="about-me-tools_item">
@@ -316,8 +321,8 @@
                   <img src="images/ico-php.png" alt="">
                 </div>
                 <div class="about-me-tools_description">
+                  <div class="about-me-tools_bar about-me-tools_bar--php"></div>
                   <h4>PHP</h4>
-                  <div class="about-me-tools_item--php"></div>
                 </div>
               </li>
               <li class="about-me-tools_item">
@@ -325,8 +330,8 @@
                   <img src="images/ico-mysql.png" alt="">
                 </div>
                 <div class="about-me-tools_description">
+                  <div class="about-me-tools_bar about-me-tools_bar--mysql"></div>
                   <h4>MySQL</h4>
-                  <div class="about-me-tools_item--mysql"></div>
                 </div>
               </li>
             </ul>
@@ -337,8 +342,8 @@
                   <img src="images/ico-bootstrap.png" alt="">
                 </div>
                 <div class="about-me-tools_description">
+                  <div class="about-me-tools_bar about-me-tools_bar--photoshop"></div>
                   <h4>Adobe Photoshop</h4>
-                  <div class="about-me-tools_item--photoshop"></div>
                 </div>
               </li>
               <li class="about-me-tools_item">
@@ -346,8 +351,8 @@
                   <img src="images/ico-sketch.png" alt="">
                 </div>
                 <div class="about-me-tools_description">
+                  <div class="about-me-tools_bar about-me-tools_bar--sketch"></div>
                   <h4>Sketch</h4>
-                  <div class="about-me-tools_item--sketch"></div>
                 </div>
               </li>
               <li class="about-me-tools_item">
@@ -355,8 +360,8 @@
                   <img src="images/ico-zeplin.png" alt="">
                 </div>
                 <div class="about-me-tools_description">
+                  <div class="about-me-tools_bar about-me-tools_bar--zeplin"></div>
                   <h4>Zeplin</h4>
-                  <div class="about-me-tools_item--zeplin"></div>
                 </div>
               </li>
             </ul>
@@ -377,7 +382,7 @@
 
 <!-- footer -->
 
-<footer class="footer">
+<section id="contacts" class="footer" data-anchor="contacts">
   <div class="row">
     <div class="medium-12">
       <h2 class="title title--footer">Контакты</h2>
@@ -398,7 +403,7 @@
         </div>
       </li>
     </ul>
-    <!--<div class="contacts-form_wrap">-->
+    <div class="footer-form">
       <form action="" class="contacts-form clearfix">
         <div class="contacts-form_title">Или отправьте сообщение</div>
         <div class="contacts-form--left">
@@ -407,11 +412,11 @@
             <label for="" class="contacts-form_label">Ваше имя</label>
           </div>
           <div class="contacts-form_field">
-            <input type="text" class="contacts-form_input" tabindex="2" required>
+            <input type="email" class="contacts-form_input" tabindex="2" required>
             <label for="" class="contacts-form_label">Ваш email</label>
           </div>
           <div class="contacts-form_field">
-            <input type="text" class="contacts-form_input" tabindex="3">
+            <input type="tel" class="contacts-form_input" tabindex="3">
             <label for="" class="contacts-form_label">Ваше телефон</label>
           </div>
           <button type="submit" class="contacts-form_btn" tabindex="5">Отправить</button>
@@ -423,10 +428,17 @@
           </div>
         </div>
       </form>
-    <!--</div>-->
+      <div class="success-message">
+        <p class="success-message_text">Спасибо за ваше сообщение!<br> Я отвечу вам в самое ближайшее время.</p>
+        <span class="success-message_pic">
+          <img src="images/smiley.png" alt="">
+        </span>
+      </div>
+    </div>
+
   </div>
 
-</footer>
+</section>
 
 
 <!-- / footer -->
@@ -436,6 +448,7 @@
 <script src="https://code.jquery.com/jquery-migrate-3.0.0.min.js"></script>
 <script src="libs/foundation-6.3.1/js/vendor/foundation.min.js"></script>
 <script src="libs/slick-1.6.0/slick/slick.js"></script>
+<script src="libs/jquery.maskedinput.min.js"></script>
 <script src="js/common.js"></script>
 
 <script>

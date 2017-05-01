@@ -2,12 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="de9bc8e1-4801-4b98-a546-1492434cff48" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/jquery.maskedinput.min.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/style.css" afterPath="$PROJECT_DIR$/css/style.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/common.js" afterPath="$PROJECT_DIR$/js/common.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/foundation-6.3.1/css/foundation.css" afterPath="$PROJECT_DIR$/libs/foundation-6.3.1/css/foundation.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/jquery.maskedinput.min.js" afterPath="$PROJECT_DIR$/libs/jquery.maskedinput.min.js" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -18,48 +17,26 @@
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.9">
+    <splitter split-orientation="horizontal" split-proportion="0.31680673">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+          <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/index.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="448">
-                  <caret line="420" column="135" lean-forward="false" selection-start-line="420" selection-start-column="135" selection-end-line="420" selection-end-column="135" />
+                <state relative-caret-position="874">
+                  <caret line="57" column="41" lean-forward="false" selection-start-line="57" selection-start-column="41" selection-end-line="57" selection-end-column="41" />
                   <folding>
-                    <element signature="n#section#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                    <element signature="n#div#1;n#section#3;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                    <marker date="1493663745757" expanded="false" signature="2096:3583" ph="..." />
+                    <marker date="1493663745757" expanded="false" signature="3678:7331" ph="..." />
+                    <marker date="1493663745757" expanded="false" signature="7421:15088" ph="..." />
+                    <marker date="1493663745757" expanded="false" signature="15491:16266" ph="..." />
+                    <marker date="1493663745757" expanded="false" signature="16350:17564" ph="..." />
+                    <marker date="1493663745757" expanded="false" signature="16463:17206" ph="..." />
+                    <marker date="1493663745757" expanded="false" signature="16507:16677" ph="..." />
+                    <marker date="1493663745757" expanded="false" signature="16721:16893" ph="..." />
+                    <marker date="1493663745757" expanded="false" signature="16937:17101" ph="..." />
+                    <marker date="1493663745757" expanded="false" signature="17249:17550" ph="..." />
                   </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="jquery.maskedinput.min.js" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/libs/jquery.maskedinput.min.js">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="0">
-                  <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="slick.css" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/libs/slick-1.6.0/slick/slick.css">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="1326">
-                  <caret line="78" column="17" lean-forward="false" selection-start-line="78" selection-start-column="17" selection-end-line="78" selection-end-column="17" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="common.js" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/js/common.js">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="85">
-                  <caret line="5" column="25" lean-forward="false" selection-start-line="5" selection-start-column="25" selection-end-line="5" selection-end-column="25" />
-                  <folding />
                 </state>
               </provider>
             </entry>
@@ -68,11 +45,21 @@
       </split-first>
       <split-second>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file leaf-file-name="style.css" pinned="false" current-in-tab="true">
+          <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/css/style.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="357">
-                  <caret line="63" column="1" lean-forward="true" selection-start-line="63" selection-start-column="1" selection-end-line="63" selection-end-column="1" />
+                <state relative-caret-position="262">
+                  <caret line="98" column="1" lean-forward="true" selection-start-line="98" selection-start-column="1" selection-end-line="98" selection-end-column="1" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="common.js" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/js/common.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="147">
+                  <caret line="45" column="29" lean-forward="true" selection-start-line="45" selection-start-column="29" selection-end-line="45" selection-end-column="29" />
                   <folding />
                 </state>
               </provider>
@@ -89,6 +76,14 @@
       </list>
     </option>
   </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>__</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>_</replace>
+    </replaceStrings>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -96,11 +91,11 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/libs/slick-1.6.0/slick/slick.css" />
-        <option value="$PROJECT_DIR$/js/common.js" />
-        <option value="$PROJECT_DIR$/libs/foundation-6.3.1/css/foundation.css" />
-        <option value="$PROJECT_DIR$/css/style.css" />
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/libs/jquery.maskedinput.min.js" />
+        <option value="$PROJECT_DIR$/libs/foundation-6.3.1/css/foundation.css" />
+        <option value="$PROJECT_DIR$/js/common.js" />
+        <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/css/style.css" />
       </list>
     </option>
   </component>
@@ -155,6 +150,46 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="libs" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Malina" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Malina" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="libs" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="foundation-6.3.1" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Malina" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Malina" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="libs" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="foundation-6.3.1" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="css" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
@@ -280,18 +315,18 @@
       <workItem from="1492618985800" duration="18721000" />
       <workItem from="1492778690382" duration="1248000" />
       <workItem from="1492852620732" duration="605000" />
-      <workItem from="1493633460540" duration="16442000" />
+      <workItem from="1493633460540" duration="25550000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="39383000" />
+    <option name="totallyTimeSpent" value="48491000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24450952" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.12884334" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -326,8 +361,16 @@
         <state relative-caret-position="2363">
           <caret line="201" column="0" lean-forward="false" selection-start-line="201" selection-start-column="0" selection-end-line="201" selection-end-column="0" />
           <folding>
-            <element signature="n#section#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#1;n#section#3;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <marker date="1493663745757" expanded="false" signature="2096:3583" ph="..." />
+            <marker date="1493663745757" expanded="false" signature="3678:7331" ph="..." />
+            <marker date="1493663745757" expanded="false" signature="7421:15088" ph="..." />
+            <marker date="1493663745757" expanded="false" signature="15491:16266" ph="..." />
+            <marker date="1493663745757" expanded="false" signature="16350:17564" ph="..." />
+            <marker date="1493663745757" expanded="false" signature="16463:17206" ph="..." />
+            <marker date="1493663745757" expanded="false" signature="16507:16677" ph="..." />
+            <marker date="1493663745757" expanded="false" signature="16721:16893" ph="..." />
+            <marker date="1493663745757" expanded="false" signature="16937:17101" ph="..." />
+            <marker date="1493663745757" expanded="false" signature="17249:17550" ph="..." />
           </folding>
         </state>
       </provider>
@@ -361,8 +404,16 @@
         <state relative-caret-position="3417">
           <caret line="201" column="0" lean-forward="false" selection-start-line="201" selection-start-column="0" selection-end-line="201" selection-end-column="0" />
           <folding>
-            <element signature="n#section#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#1;n#section#3;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <marker date="1493663745757" expanded="false" signature="2096:3583" ph="..." />
+            <marker date="1493663745757" expanded="false" signature="3678:7331" ph="..." />
+            <marker date="1493663745757" expanded="false" signature="7421:15088" ph="..." />
+            <marker date="1493663745757" expanded="false" signature="15491:16266" ph="..." />
+            <marker date="1493663745757" expanded="false" signature="16350:17564" ph="..." />
+            <marker date="1493663745757" expanded="false" signature="16463:17206" ph="..." />
+            <marker date="1493663745757" expanded="false" signature="16507:16677" ph="..." />
+            <marker date="1493663745757" expanded="false" signature="16721:16893" ph="..." />
+            <marker date="1493663745757" expanded="false" signature="16937:17101" ph="..." />
+            <marker date="1493663745757" expanded="false" signature="17249:17550" ph="..." />
           </folding>
         </state>
       </provider>
@@ -396,8 +447,16 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="n#section#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#1;n#section#3;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <marker date="1493663745757" expanded="false" signature="2096:3583" ph="..." />
+            <marker date="1493663745757" expanded="false" signature="3678:7331" ph="..." />
+            <marker date="1493663745757" expanded="false" signature="7421:15088" ph="..." />
+            <marker date="1493663745757" expanded="false" signature="15491:16266" ph="..." />
+            <marker date="1493663745757" expanded="false" signature="16350:17564" ph="..." />
+            <marker date="1493663745757" expanded="false" signature="16463:17206" ph="..." />
+            <marker date="1493663745757" expanded="false" signature="16507:16677" ph="..." />
+            <marker date="1493663745757" expanded="false" signature="16721:16893" ph="..." />
+            <marker date="1493663745757" expanded="false" signature="16937:17101" ph="..." />
+            <marker date="1493663745757" expanded="false" signature="17249:17550" ph="..." />
           </folding>
         </state>
       </provider>
@@ -423,8 +482,16 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="n#section#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#1;n#section#3;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <marker date="1493663745757" expanded="false" signature="2096:3583" ph="..." />
+            <marker date="1493663745757" expanded="false" signature="3678:7331" ph="..." />
+            <marker date="1493663745757" expanded="false" signature="7421:15088" ph="..." />
+            <marker date="1493663745757" expanded="false" signature="15491:16266" ph="..." />
+            <marker date="1493663745757" expanded="false" signature="16350:17564" ph="..." />
+            <marker date="1493663745757" expanded="false" signature="16463:17206" ph="..." />
+            <marker date="1493663745757" expanded="false" signature="16507:16677" ph="..." />
+            <marker date="1493663745757" expanded="false" signature="16721:16893" ph="..." />
+            <marker date="1493663745757" expanded="false" signature="16937:17101" ph="..." />
+            <marker date="1493663745757" expanded="false" signature="17249:17550" ph="..." />
           </folding>
         </state>
       </provider>
@@ -434,8 +501,16 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="n#section#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#1;n#section#3;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <marker date="1493663745757" expanded="false" signature="2096:3583" ph="..." />
+            <marker date="1493663745757" expanded="false" signature="3678:7331" ph="..." />
+            <marker date="1493663745757" expanded="false" signature="7421:15088" ph="..." />
+            <marker date="1493663745757" expanded="false" signature="15491:16266" ph="..." />
+            <marker date="1493663745757" expanded="false" signature="16350:17564" ph="..." />
+            <marker date="1493663745757" expanded="false" signature="16463:17206" ph="..." />
+            <marker date="1493663745757" expanded="false" signature="16507:16677" ph="..." />
+            <marker date="1493663745757" expanded="false" signature="16721:16893" ph="..." />
+            <marker date="1493663745757" expanded="false" signature="16937:17101" ph="..." />
+            <marker date="1493663745757" expanded="false" signature="17249:17550" ph="..." />
           </folding>
         </state>
       </provider>
@@ -456,45 +531,55 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/common.js">
+    <entry file="file://$PROJECT_DIR$/libs/jquery.maskedinput.min.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="25" lean-forward="false" selection-start-line="5" selection-start-column="25" selection-end-line="5" selection-end-column="25" />
-          <folding />
+        <state relative-caret-position="102">
+          <caret line="6" column="33" lean-forward="false" selection-start-line="6" selection-start-column="33" selection-end-line="6" selection-end-column="33" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/libs/foundation-6.3.1/css/foundation.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-119">
-          <caret line="803" column="0" lean-forward="false" selection-start-line="803" selection-start-column="0" selection-end-line="807" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="63" column="1" lean-forward="true" selection-start-line="63" selection-start-column="1" selection-end-line="63" selection-end-column="1" />
+        <state relative-caret-position="332">
+          <caret line="614" column="0" lean-forward="true" selection-start-line="605" selection-start-column="0" selection-end-line="614" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="448">
-          <caret line="420" column="135" lean-forward="false" selection-start-line="420" selection-start-column="135" selection-end-line="420" selection-end-column="135" />
+        <state relative-caret-position="874">
+          <caret line="57" column="41" lean-forward="false" selection-start-line="57" selection-start-column="41" selection-end-line="57" selection-end-column="41" />
           <folding>
-            <element signature="n#section#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#1;n#section#3;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <marker date="1493663745757" expanded="false" signature="2096:3583" ph="..." />
+            <marker date="1493663745757" expanded="false" signature="3678:7331" ph="..." />
+            <marker date="1493663745757" expanded="false" signature="7421:15088" ph="..." />
+            <marker date="1493663745757" expanded="false" signature="15491:16266" ph="..." />
+            <marker date="1493663745757" expanded="false" signature="16350:17564" ph="..." />
+            <marker date="1493663745757" expanded="false" signature="16463:17206" ph="..." />
+            <marker date="1493663745757" expanded="false" signature="16507:16677" ph="..." />
+            <marker date="1493663745757" expanded="false" signature="16721:16893" ph="..." />
+            <marker date="1493663745757" expanded="false" signature="16937:17101" ph="..." />
+            <marker date="1493663745757" expanded="false" signature="17249:17550" ph="..." />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/libs/jquery.maskedinput.min.js">
+    <entry file="file://$PROJECT_DIR$/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="262">
+          <caret line="98" column="1" lean-forward="true" selection-start-line="98" selection-start-column="1" selection-end-line="98" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/common.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="45" column="29" lean-forward="true" selection-start-line="45" selection-start-column="29" selection-end-line="45" selection-end-column="29" />
           <folding />
         </state>
       </provider>
