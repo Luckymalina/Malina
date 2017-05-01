@@ -61,11 +61,21 @@ body {
     overflow-x: hidden;
     width: 100vw;
 }
-
+a {
+    transition: all linear 0.2s;
+}
+.title {
+    color: #585858;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 40px;
+    text-align: center;
+}
 
 /* header */
 .header {
-    z-index: 99;
+    background: linear-gradient(to bottom,#b19771, rgba(39, 39, 39, 0.1));
+    z-index: 1000;
     position: fixed;
     top: 0;
     left: 0;
@@ -81,7 +91,7 @@ body {
     align-items: center;
 }
 .header-menu {
-    padding: 20px 0;
+    padding: 3px 0 7px;
 }
 .header-menu__item {
     padding: 0 25px;
@@ -209,25 +219,335 @@ body {
     font-size: 30px;
     line-height: 36px;
 }
-
-
-
 /* /promo */
 
+/* services */
+.services {
+    position: relative;
+    padding: 50px 0;
+}
+.services::after {
+    content: '';
+    position: absolute;
+    top: -303px;
+    left: 0;
+    background: url(../images/triangle-separator.png) no-repeat center bottom;
+    background-size: cover;
+    height: 318px;
+    min-height: 200px;
+    width: 100%;
+    z-index: 200;
+}
+.title--services {
+    margin: 0 0 30px 0;
+}
+.service {
+    width: 80%;
+    margin: 0 auto;
+}
+.service-pic {
+    height: 245px;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-end;
+}
+.service-desc {
+    margin: 30px 0 0 0;
+    padding: 0 20px;
+    text-align: center;
+}
+/* / services */
 
-/* projects */
-.projects {
+/* portfolio */
 
+.portfolio {
+    background: url(../images/portfolio-bg.jpg) no-repeat top center;
+    padding: 50px 0;
+    height: 640px;
+    min-height: 300px;
+}
+.title--portfolio {
+    margin: 0 0 30px 0;
+}
+.portfolio-slider {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.portfolio-item {
+    width: 22%;
+    height: 430px;
+    overflow: hidden;
+}
+.portfolio-item_wrap {
+    position: relative;
+    z-index: 9;
+    height: 430px;
+    width: 80%;
+}
+.portfolio-item_wrap img {
+    display: inline-block;
+    max-width: 100%;
+}
+.portfolio-item_description {
+    padding: 15px 20px 20px 20px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background: #fff;
+    height: 50%;
+    z-index: 10;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    transition: all linear 0.6s;
+}
+.portfolio-link:hover .portfolio-item_description {
+    bottom: -430px;
+}
+.portfolio-item_title {
+    color: #ff9600;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 30px;
+    margin: 0;
+    padding: 0;
+    height: 65px;
+
+    display: -webkit-box;
+    overflow: hidden;
+    text-align: left;
+    -o-text-overflow: ellipsis;
+    text-overflow: ellipsis;
+    word-wrap: break-word;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+}
+.portfolio-item_description p {
+    color: #676767;
+    font-size: 17px;
+    line-height: 27px;
+}
+.mark {
+    color: #333333;
+    font-size: 11px;
+    line-height: 15px;
+    margin-top: auto;
+    padding: 3px 0;
+}
+/* /portfolio */
+
+/* about me*/
+.about-me {
+    padding: 70px 0;
+}
+.about-me-tools_title {
+    font-size: 20px;
+    text-align: center;
+    margin: 0 0 20px 0;
+}
+.about-me-tools_list {
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: wrap;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    width: 33%;
+}
+.about-me-tools_item {
+    width: 50%;
+    display: flex;
+    min-height: 50px;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+.about-me-tools_description h4 {
+    font-size: 18px;
+    line-height: 30px;
+}
+.about-me-tools_pic {
+    margin: 0 10px 0 0;
+}
+
+/* /about me*/
+
+/* footer */
+
+.footer {
+    background-image: url(../images/portfolio-bg.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: 0 -353px;
+    background-size: cover;
+    padding: 100px 0 0px;
+    height: 630px;
+    min-height: 300px;
+    width: 100%;
+}
+.contacts_list {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+.contacts_title {
+    font-weight: 700;
+    margin: 0 20px 0 0;
+    color: #585858;
+}
+.contacts_item {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 0 30px 0 0;
+}
+.contacts_value {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    color: #ff9600;
+    font-size: 27px;
+    font-weight: 500;
+}
+.contacts_value-link {
+    text-indent: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    transition: all linear 0.3s;
+    width: 45px;
+    height: 45px;
+    display: inline-block;
+    vertical-align: top;
+    margin: 0 15px 0 0;
+}
+.contacts_value-link--facebook {
+    background: url("../images/ico-facebook.png") no-repeat;
+    -webkit-background-size: cover;
+    background-size: cover;
+    width: 45px;
+    height: 45px;
+}
+.contacts_value-link--facebook:hover {
+    background: url("../images/ico-fb-hover.png") no-repeat;
+    -webkit-background-size: cover;
+    background-size: cover;
+    width: 45px;
+    height: 45px;
+}
+.contacts_value-link--vkontakte {
+    background: url("../images/ico-vkontakte.png") no-repeat;
+    -webkit-background-size: cover;
+    background-size: cover;
+    width: 45px;
+    height: 45px;
+}
+.contacts_value-link--vkontakte:hover {
+    background: url("../images/ico-vk-hover.png") no-repeat;
+    -webkit-background-size: cover;
+    background-size: cover;
+    width: 45px;
+    height: 45px;
+}
+.contacts_value-link--telegramm {
+    background: url("../images/ico-telegram.png") no-repeat;
+    -webkit-background-size: cover;
+    background-size: cover;
+    width: 45px;
+    height: 45px;
+}
+.contacts_value-link--telegramm:hover {
+    background: url("../images/ico-telegram-hover.png") no-repeat;
+    -webkit-background-size: cover;
+    background-size: cover;
+    width: 45px;
+    height: 45px;
+}
+.contacts-form {
+    width: 750px;
+    margin: 0 auto;
+}
+.contacts-form_title {
+    font-weight: 700;
+    margin: 0 20px 0 0;
+    color: #585858;
+    font-size: 22px;
+    text-align: center;
+    padding: 30px 0;
+}
+
+
+.contacts-form--left {
+    float: left;
+    width: 50%;
+}
+.contacts-form--right {
+    float: right;
+    width: 50%;
+}
+.contacts-form_field {
+    width: 100%;
+    position: relative;
+    height: 75px;
+}
+.contacts-form_input {
+    border: 1px solid #568ba8;
+    border-radius: 3px;
+    padding: 12px;
+    color: #585858;
+    font-size: 20px;
+    width: 300px;
+}
+.contacts-form_input {
+    position: absolute;
+    top: 0;
+}
+.contacts-form_input + label {
+    position: absolute;
+    top: 11px;
+    left: 10px;
+    transition: all linear 0.3s;
+}
+.contacts-form_input:focus + label {
+    top: -23px;
+    left: 0;
+}
+.contacts-form_input--textarea {
+    resize: none;
+    width: 300px;
+    height: 200px;
+}
+.contacts-form_btn {
+    width: 50%;
+    background: #ff9802;
+    padding: 10px;
+    text-align: center;
+    border-radius: 30px;
+    color: #fff;
+    font-size: 21px;
+    letter-spacing: 0.3px;
+    cursor: pointer;
+    transition: all linear 0.2s;
+}
+.contacts-form_btn:hover {
+    background: #568ba8;
 }
 
 
 
-
-
-
-/* / projects */
-
-
+/* /footer */
 
 
 
