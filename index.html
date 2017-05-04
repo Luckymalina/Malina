@@ -17,25 +17,32 @@
 
 <header class="header">
   <div class="row header-menu">
-    <nav class="medium-12 large-12 columns">
-      <ul class="header-menu_list menu align-center">
-        <li class="header-menu_item">
-          <a href="#" class="header-menu_link" data-scroll="services">Услуги</a>
-        </li>
-        <li class="header-menu_item">
-          <a href="#" class="header-menu_link" data-scroll="portfolio">Портфолио</a>
-        </li>
-        <li class="header-menu_item">
-          <a href="#" class="header-menu_link" data-scroll="about">Обо мне</a>
-        </li>
-        <li class="header-menu_item">
-          <a href="#" class="header-menu_link" data-scroll="reviews">Отзывы</a>
-        </li>
-        <li class="header-menu_item">
-          <a href="#" class="header-menu_link" data-scroll="contacts">Контакты</a>
-        </li>
-      </ul>
-    </nav>
+    <div class="medium-12 large-12 columns">
+      <div class="menu-opener">
+        <div class="menu-opener-inner"></div>
+      </div>
+      <div class="mobile-menu">
+          <nav class="header-menu_list--nav menu">
+          <ul class="header-menu_list menu-inner align-center">
+            <li class="header-menu_item">
+              <a href="#" class="header-menu_link" data-scroll="services">Услуги</a>
+            </li>
+            <li class="header-menu_item">
+              <a href="#" class="header-menu_link" data-scroll="portfolio">Портфолио</a>
+            </li>
+            <li class="header-menu_item">
+              <a href="#" class="header-menu_link" data-scroll="about">Обо мне</a>
+            </li>
+            <li class="header-menu_item">
+              <a href="#" class="header-menu_link" data-scroll="reviews">Отзывы</a>
+            </li>
+            <li class="header-menu_item">
+              <a href="#" class="header-menu_link" data-scroll="contacts">Контакты</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </div>
   </div>
 </header>
 <!-- /header -->
@@ -119,7 +126,7 @@
         </div>
       </div>
       <div class="row">
-        <div class="medium-12 columns">
+        <div class="small-12 medium-12 columns">
           <ul class="portfolio-slider">
             <li class="portfolio-item">
               <a href="" class="portfolio-link">
@@ -197,12 +204,12 @@
 
     <section id="about-me" class="about-me" data-anchor="about">
       <div class="row">
-        <div class="medium-12">
+        <div class="small-12 medium-12">
           <h2 class="title title--about-me">Обо мне</h2>
         </div>
       </div>
       <div class="row">
-        <div class="medium-12">
+        <div class="small-12 medium-12">
           <div class="about-me-description">
             <p>Каждый веб-разработчик знает, что такое текст-«рыба». Текст этот, несмотря на название, не имеет никакого
               отношения к обитателям водоемов. Используется он веб-дизайнерами для вставки на интернет-страницы и демонстрации
@@ -384,7 +391,7 @@
 
 <section id="contacts" class="footer" data-anchor="contacts">
   <div class="row">
-    <div class="medium-12">
+    <div class="small-12 medium-12">
       <h2 class="title title--footer">Контакты</h2>
     </div>
   </div>
@@ -406,7 +413,7 @@
     <div class="footer-form">
       <form action="" class="contacts-form clearfix">
         <div class="contacts-form_title">Или отправьте сообщение:</div>
-        <div class="contacts-form--left">
+        <div class="contacts-form--left" >
           <div class="contacts-form_field">
             <input type="text" class="contacts-form_input" tabindex="1" required>
             <label for="" class="contacts-form_label">Ваше имя</label>
@@ -419,13 +426,15 @@
             <input type="tel" class="contacts-form_input" tabindex="3">
             <label for="" class="contacts-form_label">Ваше телефон</label>
           </div>
-          <button type="submit" class="contacts-form_btn" tabindex="5">Отправить</button>
         </div>
         <div class="contacts-form--right">
           <div class="contacts-form_field">
             <textarea name="" id="" cols="30" rows="10" class="contacts-form_input contacts-form_input--textarea" tabindex="4" required></textarea>
             <label for="" class="contacts-form_label">Ваше сообщение</label>
           </div>
+        </div>
+        <div class="contacts-form_btn-wrap">
+          <button type="submit" class="contacts-form_btn" tabindex="5">Отправить</button>
         </div>
       </form>
       <div class="success-message">

@@ -2,11 +2,20 @@ $( document ).ready(function() {
 
 
     $('.portfolio-slider').slick({
-        // variableWidth: true,
+        variableWidth: true,
         centerMode: true,
         centerPadding: '60px',
         slidesToShow: 3
         // responsive: [
+        //     {
+        //         breakpoint: 768,
+        //         settings: {
+        //             arrows: false,
+        //             centerMode: true,
+        //             centerPadding: '40px',
+        //             slidesToShow: 3
+        //         }
+        //     },
         //     {
         //         breakpoint: 768,
         //         settings: {
@@ -75,5 +84,8 @@ $( document ).ready(function() {
 
     }).scroll();
 
+    $(".menu-opener").click(function(){
+        $(".menu-opener, .menu-opener-inner, .menu").toggleClass("active");
+    });
 
 });
