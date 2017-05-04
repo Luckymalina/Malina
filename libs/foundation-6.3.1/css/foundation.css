@@ -1638,19 +1638,19 @@ select {
       outline: 0; }
   .menu > li > a {
     display: block;
-    padding: 0.7rem 1rem;
+    /*padding: 0.7rem 1rem;*/
     line-height: 1; }
   .menu input,
   .menu select,
   .menu a,
   .menu button {
     margin-bottom: 0; }
-  .menu > li > a {
-    display: -ms-flexbox;
-    display: flex; }
-  .menu > li > a {
-    -ms-flex-flow: row nowrap;
-        flex-flow: row nowrap; }
+  /*.menu > li > a {*/
+    /*display: -ms-flexbox;*/
+    /*display: flex; }*/
+  /*.menu > li > a {*/
+    /*-ms-flex-flow: row nowrap;*/
+        /*flex-flow: row nowrap; }*/
     .menu > li > a img,
     .menu > li > a i,
     .menu > li > a svg {

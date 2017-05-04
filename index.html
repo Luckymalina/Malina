@@ -15,15 +15,22 @@
 <body>
 
 
+
+
+
 <header class="header">
-  <div class="row header-menu">
+  <div class="header-menu">
     <div class="medium-12 large-12 columns">
       <div class="menu-opener">
-        <div class="menu-opener-inner"></div>
+        <div class="menu-opener-inner open">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
       </div>
       <div class="mobile-menu">
-          <nav class="header-menu_list--nav menu">
-          <ul class="header-menu_list menu-inner align-center">
+        <nav class="header-menu_list--nav mobile-menu">
+          <ul class="header-menu_list menu align-center">
             <li class="header-menu_item">
               <a href="#" class="header-menu_link" data-scroll="services">Услуги</a>
             </li>
@@ -121,7 +128,7 @@
 
     <section id="portfolio" class="portfolio" data-anchor="portfolio">
       <div class="row">
-        <div class="medium-12">
+        <div class="small-12 medium-12 columns">
           <h2 class="title title--portfolio">Портфолио</h2>
         </div>
       </div>
@@ -220,158 +227,160 @@
           </div>
           <div class="about-me-tools">
             <h3 class="about-me-tools_title">Инструменты для работы, навыки и опыт</h3>
-            <ul class="about-me-tools_list about-me-tools_list--layout">
-              <li class="about-me-tools_item about-me-tools_item--html">
-                <div class="about-me-tools_pic">
-                  <img src="images/ico-html.png" alt="">
-                </div>
-                <div class="about-me-tools_description">
-                  <div class="about-me-tools_bar about-me-tools_bar--html"></div>
-                  <h4>HTML / HTML 5</h4>
-                </div>
-              </li>
-              <li class="about-me-tools_item">
-                <div class="about-me-tools_pic">
-                  <img src="images/ico-css3.png" alt="">
-                </div>
-                <div class="about-me-tools_description">
-                  <div class="about-me-tools_bar about-me-tools_bar--css3"></div>
-                  <h4>CSS3</h4>
-                </div>
-              </li>
-              <li class="about-me-tools_item">
-                <div class="about-me-tools_pic">
-                  <img src="images/ico-sass.png" alt="">
-                </div>
-                <div class="about-me-tools_description">
-                  <div class="about-me-tools_bar about-me-tools_bar--sass"></div>
-                  <h4>Sass</h4>
-                </div>
-              </li>
-              <li class="about-me-tools_item">
-                <div class="about-me-tools_pic">
-                  <img src="images/ico-gulp.png" alt="">
-                </div>
-                <div class="about-me-tools_description">
-                  <div class="about-me-tools_bar about-me-tools_bar--gulp"></div>
-                  <h4>Gulp</h4>
-                </div>
-              </li>
-              <li class="about-me-tools_item">
-                <div class="about-me-tools_pic">
-                  <img src="images/ico-svg.png" alt="">
-                </div>
-                <div class="about-me-tools_description">
-                  <div class="about-me-tools_bar about-me-tools_bar--svg"></div>
-                  <h4>SVG</h4>
-                </div>
-              </li>
-              <li class="about-me-tools_item">
-                <div class="about-me-tools_pic">
-                  <img src="images/ico-bootstrap.png" alt="">
-                </div>
-                <div class="about-me-tools_description">
-                  <div class="about-me-tools_bar about-me-tools_bar--bootstrap"></div>
-                  <h4>Bootstrap</h4>
-                </div>
-              </li>
-              <li class="about-me-tools_item">
-                <div class="about-me-tools_pic">
-                  <img src="images/ico-foundation.png" alt="">
-                </div>
-                <div class="about-me-tools_description">
-                  <div class="about-me-tools_bar about-me-tools_bar--foundation"></div>
-                  <h4>Foundation</h4>
-                </div>
-              </li>
-              <li class="about-me-tools_item">
-                <div class="about-me-tools_pic">
-                  <img src="images/ico-bem.png" alt="">
-                </div>
-                <div class="about-me-tools_description">
-                  <div class="about-me-tools_bar about-me-tools_bar--bem"></div>
-                  <h4>BEM</h4>
-                </div>
-              </li>
-            </ul>
+            <div class="about-me-tools_lists">
+              <ul class="about-me-tools_list about-me-tools_list--layout">
+                <li class="about-me-tools_item about-me-tools_item--html">
+                  <div class="about-me-tools_pic">
+                    <img src="images/ico-html.png" alt="">
+                  </div>
+                  <div class="about-me-tools_description">
+                    <div class="about-me-tools_bar about-me-tools_bar--html"></div>
+                    <h4>HTML / HTML 5</h4>
+                  </div>
+                </li>
+                <li class="about-me-tools_item">
+                  <div class="about-me-tools_pic">
+                    <img src="images/ico-css3.png" alt="">
+                  </div>
+                  <div class="about-me-tools_description">
+                    <div class="about-me-tools_bar about-me-tools_bar--css3"></div>
+                    <h4>CSS3</h4>
+                  </div>
+                </li>
+                <li class="about-me-tools_item">
+                  <div class="about-me-tools_pic">
+                    <img src="images/ico-sass.png" alt="">
+                  </div>
+                  <div class="about-me-tools_description">
+                    <div class="about-me-tools_bar about-me-tools_bar--sass"></div>
+                    <h4>Sass</h4>
+                  </div>
+                </li>
+                <li class="about-me-tools_item">
+                  <div class="about-me-tools_pic">
+                    <img src="images/ico-gulp.png" alt="">
+                  </div>
+                  <div class="about-me-tools_description">
+                    <div class="about-me-tools_bar about-me-tools_bar--gulp"></div>
+                    <h4>Gulp</h4>
+                  </div>
+                </li>
+                <li class="about-me-tools_item">
+                  <div class="about-me-tools_pic">
+                    <img src="images/ico-svg.png" alt="">
+                  </div>
+                  <div class="about-me-tools_description">
+                    <div class="about-me-tools_bar about-me-tools_bar--svg"></div>
+                    <h4>SVG</h4>
+                  </div>
+                </li>
+                <li class="about-me-tools_item">
+                  <div class="about-me-tools_pic">
+                    <img src="images/ico-bootstrap.png" alt="">
+                  </div>
+                  <div class="about-me-tools_description">
+                    <div class="about-me-tools_bar about-me-tools_bar--bootstrap"></div>
+                    <h4>Bootstrap</h4>
+                  </div>
+                </li>
+                <li class="about-me-tools_item">
+                  <div class="about-me-tools_pic">
+                    <img src="images/ico-foundation.png" alt="">
+                  </div>
+                  <div class="about-me-tools_description">
+                    <div class="about-me-tools_bar about-me-tools_bar--foundation"></div>
+                    <h4>Foundation</h4>
+                  </div>
+                </li>
+                <li class="about-me-tools_item">
+                  <div class="about-me-tools_pic">
+                    <img src="images/ico-bem.png" alt="">
+                  </div>
+                  <div class="about-me-tools_description">
+                    <div class="about-me-tools_bar about-me-tools_bar--bem"></div>
+                    <h4>BEM</h4>
+                  </div>
+                </li>
+              </ul>
 
-            <ul class="about-me-tools_list about-me-tools_list--functions">
-              <li class="about-me-tools_item">
-                <div class="about-me-tools_pic">
-                  <img src="images/ico-jquery.png" alt="">
-                </div>
-                <div class="about-me-tools_description">
-                  <div class="about-me-tools_bar about-me-tools_bar--jquery"></div>
-                  <h4>Jquery</h4>
-                </div>
-              </li>
-              <li class="about-me-tools_item">
-                <div class="about-me-tools_pic">
-                  <img src="images/ico-js.png" alt="">
-                </div>
-                <div class="about-me-tools_description">
-                  <div class="about-me-tools_bar about-me-tools_bar--js"></div>
-                  <h4>JavaScript</h4>
-                </div>
-              </li>
-              <li class="about-me-tools_item">
-                <div class="about-me-tools_pic">
-                  <img src="images/ico-wp.png" alt="">
-                </div>
-                <div class="about-me-tools_description">
-                  <div class="about-me-tools_bar about-me-tools_bar--wordpress"></div>
-                  <h4>Wordpress</h4>
-                </div>
-              </li>
-              <li class="about-me-tools_item">
-                <div class="about-me-tools_pic">
-                  <img src="images/ico-php.png" alt="">
-                </div>
-                <div class="about-me-tools_description">
-                  <div class="about-me-tools_bar about-me-tools_bar--php"></div>
-                  <h4>PHP</h4>
-                </div>
-              </li>
-              <li class="about-me-tools_item">
-                <div class="about-me-tools_pic">
-                  <img src="images/ico-mysql.png" alt="">
-                </div>
-                <div class="about-me-tools_description">
-                  <div class="about-me-tools_bar about-me-tools_bar--mysql"></div>
-                  <h4>MySQL</h4>
-                </div>
-              </li>
-            </ul>
+              <ul class="about-me-tools_list about-me-tools_list--functions">
+                <li class="about-me-tools_item">
+                  <div class="about-me-tools_pic">
+                    <img src="images/ico-jquery.png" alt="">
+                  </div>
+                  <div class="about-me-tools_description">
+                    <div class="about-me-tools_bar about-me-tools_bar--jquery"></div>
+                    <h4>Jquery</h4>
+                  </div>
+                </li>
+                <li class="about-me-tools_item">
+                  <div class="about-me-tools_pic">
+                    <img src="images/ico-js.png" alt="">
+                  </div>
+                  <div class="about-me-tools_description">
+                    <div class="about-me-tools_bar about-me-tools_bar--js"></div>
+                    <h4>JavaScript</h4>
+                  </div>
+                </li>
+                <li class="about-me-tools_item">
+                  <div class="about-me-tools_pic">
+                    <img src="images/ico-wp.png" alt="">
+                  </div>
+                  <div class="about-me-tools_description">
+                    <div class="about-me-tools_bar about-me-tools_bar--wordpress"></div>
+                    <h4>Wordpress</h4>
+                  </div>
+                </li>
+                <li class="about-me-tools_item">
+                  <div class="about-me-tools_pic">
+                    <img src="images/ico-php.png" alt="">
+                  </div>
+                  <div class="about-me-tools_description">
+                    <div class="about-me-tools_bar about-me-tools_bar--php"></div>
+                    <h4>PHP</h4>
+                  </div>
+                </li>
+                <li class="about-me-tools_item">
+                  <div class="about-me-tools_pic">
+                    <img src="images/ico-mysql.png" alt="">
+                  </div>
+                  <div class="about-me-tools_description">
+                    <div class="about-me-tools_bar about-me-tools_bar--mysql"></div>
+                    <h4>MySQL</h4>
+                  </div>
+                </li>
+              </ul>
 
-            <ul class="about-me-tools_list about-me-tools_list--graphic">
-              <li class="about-me-tools_item">
-                <div class="about-me-tools_pic">
-                  <img src="images/ico-bootstrap.png" alt="">
-                </div>
-                <div class="about-me-tools_description">
-                  <div class="about-me-tools_bar about-me-tools_bar--photoshop"></div>
-                  <h4>Adobe Photoshop</h4>
-                </div>
-              </li>
-              <li class="about-me-tools_item">
-                <div class="about-me-tools_pic">
-                  <img src="images/ico-sketch.png" alt="">
-                </div>
-                <div class="about-me-tools_description">
-                  <div class="about-me-tools_bar about-me-tools_bar--sketch"></div>
-                  <h4>Sketch</h4>
-                </div>
-              </li>
-              <li class="about-me-tools_item">
-                <div class="about-me-tools_pic">
-                  <img src="images/ico-zeplin.png" alt="">
-                </div>
-                <div class="about-me-tools_description">
-                  <div class="about-me-tools_bar about-me-tools_bar--zeplin"></div>
-                  <h4>Zeplin</h4>
-                </div>
-              </li>
-            </ul>
+              <ul class="about-me-tools_list about-me-tools_list--graphic">
+                <li class="about-me-tools_item">
+                  <div class="about-me-tools_pic">
+                    <img src="images/ico-bootstrap.png" alt="">
+                  </div>
+                  <div class="about-me-tools_description">
+                    <div class="about-me-tools_bar about-me-tools_bar--photoshop"></div>
+                    <h4>Adobe Photoshop</h4>
+                  </div>
+                </li>
+                <li class="about-me-tools_item">
+                  <div class="about-me-tools_pic">
+                    <img src="images/ico-sketch.png" alt="">
+                  </div>
+                  <div class="about-me-tools_description">
+                    <div class="about-me-tools_bar about-me-tools_bar--sketch"></div>
+                    <h4>Sketch</h4>
+                  </div>
+                </li>
+                <li class="about-me-tools_item">
+                  <div class="about-me-tools_pic">
+                    <img src="images/ico-zeplin.png" alt="">
+                  </div>
+                  <div class="about-me-tools_description">
+                    <div class="about-me-tools_bar about-me-tools_bar--zeplin"></div>
+                    <h4>Zeplin</h4>
+                  </div>
+                </li>
+              </ul>
+            </div>
           </div>
         </div>
       </div>
@@ -411,26 +420,28 @@
       </li>
     </ul>
     <div class="footer-form">
-      <form action="" class="contacts-form clearfix">
-        <div class="contacts-form_title">Или отправьте сообщение:</div>
-        <div class="contacts-form--left" >
-          <div class="contacts-form_field">
-            <input type="text" class="contacts-form_input" tabindex="1" required>
-            <label for="" class="contacts-form_label">Ваше имя</label>
+      <div class="footer-form_title">Или отправьте сообщение:</div>
+      <form action="" class="contacts-form">
+        <div class="contacts-form_blocks clearfix">
+          <div class="contacts-form--left" >
+            <div class="contacts-form_field">
+              <input type="text" class="contacts-form_input" tabindex="1" required>
+              <label for="" class="contacts-form_label">Ваше имя</label>
+            </div>
+            <div class="contacts-form_field">
+              <input type="email" class="contacts-form_input" tabindex="2" required>
+              <label for="" class="contacts-form_label">Ваш email</label>
+            </div>
+            <div class="contacts-form_field">
+              <input type="tel" class="contacts-form_input" tabindex="3">
+              <label for="" class="contacts-form_label">Ваше телефон</label>
+            </div>
           </div>
-          <div class="contacts-form_field">
-            <input type="email" class="contacts-form_input" tabindex="2" required>
-            <label for="" class="contacts-form_label">Ваш email</label>
-          </div>
-          <div class="contacts-form_field">
-            <input type="tel" class="contacts-form_input" tabindex="3">
-            <label for="" class="contacts-form_label">Ваше телефон</label>
-          </div>
-        </div>
-        <div class="contacts-form--right">
-          <div class="contacts-form_field">
-            <textarea name="" id="" cols="30" rows="10" class="contacts-form_input contacts-form_input--textarea" tabindex="4" required></textarea>
-            <label for="" class="contacts-form_label">Ваше сообщение</label>
+          <div class="contacts-form--right">
+            <div class="contacts-form_field">
+              <textarea name="" id="" cols="30" rows="10" class="contacts-form_input contacts-form_input--textarea" tabindex="4" required></textarea>
+              <label for="" class="contacts-form_label">Ваше сообщение</label>
+            </div>
           </div>
         </div>
         <div class="contacts-form_btn-wrap">

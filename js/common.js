@@ -2,39 +2,30 @@ $( document ).ready(function() {
 
 
     $('.portfolio-slider').slick({
-        variableWidth: true,
+        // variableWidth: true,
         centerMode: true,
         centerPadding: '60px',
-        slidesToShow: 3
-        // responsive: [
-        //     {
-        //         breakpoint: 768,
-        //         settings: {
-        //             arrows: false,
-        //             centerMode: true,
-        //             centerPadding: '40px',
-        //             slidesToShow: 3
-        //         }
-        //     },
-        //     {
-        //         breakpoint: 768,
-        //         settings: {
-        //             arrows: false,
-        //             centerMode: true,
-        //             centerPadding: '40px',
-        //             slidesToShow: 3
-        //         }
-        //     },
-        //     {
-        //         breakpoint: 480,
-        //         settings: {
-        //             arrows: false,
-        //             centerMode: true,
-        //             centerPadding: '40px',
-        //             slidesToShow: 1
-        //         }
-        //     }
-        // ]
+        slidesToShow: 3,
+        responsive: [
+            {
+                breakpoint: 480,
+                settings: {
+                    arrows: false,
+                    centerMode: true,
+                    centerPadding: '10px',
+                    slidesToShow: 1
+                }
+            },
+            {
+                breakpoint: 768,
+                settings: {
+                    arrows: false,
+                    centerMode: true,
+                    centerPadding: '10px',
+                    slidesToShow: 2
+                }
+            }
+        ]
     });
 
     $('input[type=tel]').mask("+7 (999) 999-99-99");
@@ -85,7 +76,7 @@ $( document ).ready(function() {
     }).scroll();
 
     $(".menu-opener").click(function(){
-        $(".menu-opener, .menu-opener-inner, .menu").toggleClass("active");
+        $(".mobile-menu, .menu-opener-inner").toggleClass("open");
     });
 
 });
