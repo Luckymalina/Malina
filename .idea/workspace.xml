@@ -4,6 +4,7 @@
     <list default="true" id="de9bc8e1-4801-4b98-a546-1492434cff48" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/style.css" afterPath="$PROJECT_DIR$/css/style.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/common.js" afterPath="$PROJECT_DIR$/js/common.js" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -14,30 +15,20 @@
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.16882317">
+    <splitter split-orientation="horizontal" split-proportion="0.49722737">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
           <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/index.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="444">
-                  <caret line="29" column="21" lean-forward="true" selection-start-line="29" selection-start-column="21" selection-end-line="29" selection-end-column="37" />
+                <state relative-caret-position="569">
+                  <caret line="311" column="83" lean-forward="false" selection-start-line="311" selection-start-column="83" selection-end-line="311" selection-end-column="83" />
                   <folding>
                     <element signature="n#section#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
                     <element signature="n#section#1;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
                     <element signature="n#div#1;n#form#0;n#div#0;n#div#1;n#section#0;n#body#0;n#html#0;n#!!top" expanded="false" />
                     <element signature="n#div#1;n#div#0;n#div#1;n#section#0;n#body#0;n#html#0;n#!!top" expanded="false" />
                   </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="common.js" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/js/common.js">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="612">
-                  <caret line="36" column="33" lean-forward="true" selection-start-line="36" selection-start-column="33" selection-end-line="36" selection-end-column="33" />
-                  <folding />
                 </state>
               </provider>
             </entry>
@@ -49,8 +40,8 @@
           <file leaf-file-name="style.css" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/css/style.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="831">
-                  <caret line="1190" column="1" lean-forward="false" selection-start-line="1190" selection-start-column="1" selection-end-line="1190" selection-end-column="1" />
+                <state relative-caret-position="697">
+                  <caret line="712" column="23" lean-forward="false" selection-start-line="712" selection-start-column="23" selection-end-line="712" selection-end-column="23" />
                   <folding />
                 </state>
               </provider>
@@ -81,9 +72,11 @@
     <findStrings>
       <find>service-desc</find>
       <find>__</find>
+      <find>&quot;</find>
     </findStrings>
     <replaceStrings>
       <replace>_</replace>
+      <replace>'</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -359,12 +352,12 @@
       <workItem from="1492852620732" duration="605000" />
       <workItem from="1493633460540" duration="28955000" />
       <workItem from="1493800890004" duration="599000" />
-      <workItem from="1493829752838" duration="17261000" />
+      <workItem from="1493829752838" duration="26294000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="69756000" />
+    <option name="totallyTimeSpent" value="78789000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -613,16 +606,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/js/common.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="612">
-          <caret line="36" column="33" lean-forward="true" selection-start-line="36" selection-start-column="33" selection-end-line="36" selection-end-column="33" />
+        <state relative-caret-position="578">
+          <caret line="74" column="6" lean-forward="true" selection-start-line="74" selection-start-column="6" selection-end-line="74" selection-end-column="6" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="444">
-          <caret line="29" column="21" lean-forward="true" selection-start-line="29" selection-start-column="21" selection-end-line="29" selection-end-column="37" />
+        <state relative-caret-position="569">
+          <caret line="311" column="83" lean-forward="false" selection-start-line="311" selection-start-column="83" selection-end-line="311" selection-end-column="83" />
           <folding>
             <element signature="n#section#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#section#1;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
@@ -634,8 +627,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="831">
-          <caret line="1190" column="1" lean-forward="false" selection-start-line="1190" selection-start-column="1" selection-end-line="1190" selection-end-column="1" />
+        <state relative-caret-position="697">
+          <caret line="712" column="23" lean-forward="false" selection-start-line="712" selection-start-column="23" selection-end-line="712" selection-end-column="23" />
           <folding />
         </state>
       </provider>

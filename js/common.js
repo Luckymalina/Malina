@@ -30,17 +30,6 @@ $( document ).ready(function() {
 
     $('input[type=tel]').mask("+7 (999) 999-99-99");
 
-    //nav to anchor
-    // $('body').on('click', '[data-anchor]', function(e) {
-    //     e.preventDefault();
-    //     var href = $(this).attr('href');
-    //     var section = $(href);
-    //     $('body, html').animate({
-    //         scrollTop: section.offset().top
-    //     }, 1000)
-    // });
-
-
     $('.header-menu_link').on('click', function() {
 
         var scrollAnchor = $(this).attr('data-scroll'),
@@ -51,9 +40,7 @@ $( document ).ready(function() {
         }, 600);
 
         return false;
-
     });
-
 
     $(window).scroll(function() {
         var windscroll = $(window).scrollTop();
@@ -78,5 +65,25 @@ $( document ).ready(function() {
     $(".menu-opener").click(function(){
         $(".mobile-menu, .menu-opener-inner").toggleClass("open");
     });
+
+    //Hide menu on click on page
+    // $('.menu-opener').click(function(e) {
+    //     var $menu = $('.mobile-menu');
+    //
+    //     if ($menu.css('left') != '0') {
+    //         $menu.classList.add("open")
+    //
+    //         var firstClick = true;
+    //         $(document).bind('click.myEvent', function(e) {
+    //             if (!firstClick && $(e.target).closest('.mobile-menu').length == 0) {
+    //                 $menu.hide();
+    //                 $(document).unbind('click.myEvent');
+    //             }
+    //             firstClick = false;
+    //         });
+    //     }
+    //
+    //     e.preventDefault();
+    // });
 
 });

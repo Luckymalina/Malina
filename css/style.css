@@ -1,50 +1,50 @@
 /* fonts*/
 @font-face {
-    font-family: "SegoeUIRegular";
-    src: url("../fonts/SegoeUI/SegoeUIRegular/SegoeUIRegular.eot");
-    src: url("../fonts/SegoeUI/SegoeUIRegular/SegoeUIRegular.eot?#iefix")format("embedded-opentype"),
-    url("../fonts/SegoeUI/SegoeUIRegular/SegoeUIRegular.woff") format("woff"),
-    url("../fonts/SegoeUI/SegoeUIRegular/SegoeUIRegular.ttf") format("truetype");
+    font-family: 'SegoeUIRegular';
+    src: url('../fonts/SegoeUI/SegoeUIRegular/SegoeUIRegular.eot');
+    src: url('../fonts/SegoeUI/SegoeUIRegular/SegoeUIRegular.eot?#iefix')format('embedded-opentype'),
+    url('../fonts/SegoeUI/SegoeUIRegular/SegoeUIRegular.woff') format('woff'),
+    url('../fonts/SegoeUI/SegoeUIRegular/SegoeUIRegular.ttf') format('truetype');
     font-style: normal;
     font-weight: normal;
 }
-/* font-family: "SegoeUIBold"; */
+/* font-family: 'SegoeUIBold'; */
 @font-face {
-    font-family: "SegoeUIBold";
-    src: url("../fonts/SegoeUI/SegoeUIBold/SegoeUIBold.eot");
-    src: url("../fonts/SegoeUI/SegoeUIBold/SegoeUIBold.eot?#iefix")format("embedded-opentype"),
-    url("../fonts/SegoeUI/SegoeUIBold/SegoeUIBold.woff") format("woff"),
-    url("../fonts/SegoeUI/SegoeUIBold/SegoeUIBold.ttf") format("truetype");
+    font-family: 'SegoeUIBold';
+    src: url('../fonts/SegoeUI/SegoeUIBold/SegoeUIBold.eot');
+    src: url('../fonts/SegoeUI/SegoeUIBold/SegoeUIBold.eot?#iefix')format('embedded-opentype'),
+    url('../fonts/SegoeUI/SegoeUIBold/SegoeUIBold.woff') format('woff'),
+    url('../fonts/SegoeUI/SegoeUIBold/SegoeUIBold.ttf') format('truetype');
     font-style: normal;
     font-weight: normal;
 }
-/* font-family: "SegoeUIItalic"; */
+/* font-family: 'SegoeUIItalic'; */
 @font-face {
-    font-family: "SegoeUIItalic";
-    src: url("../fonts/SegoeUI/SegoeUIItalic/SegoeUIItalic.eot");
-    src: url("../fonts/SegoeUI/SegoeUIItalic/SegoeUIItalic.eot?#iefix")format("embedded-opentype"),
-    url("../fonts/SegoeUI/SegoeUIItalic/SegoeUIItalic.woff") format("woff"),
-    url("../fonts/SegoeUI/SegoeUIItalic/SegoeUIItalic.ttf") format("truetype");
+    font-family: 'SegoeUIItalic';
+    src: url('../fonts/SegoeUI/SegoeUIItalic/SegoeUIItalic.eot');
+    src: url('../fonts/SegoeUI/SegoeUIItalic/SegoeUIItalic.eot?#iefix')format('embedded-opentype'),
+    url('../fonts/SegoeUI/SegoeUIItalic/SegoeUIItalic.woff') format('woff'),
+    url('../fonts/SegoeUI/SegoeUIItalic/SegoeUIItalic.ttf') format('truetype');
     font-style: normal;
     font-weight: normal;
 }
-/* font-family: "SegoeUILight"; */
+/* font-family: 'SegoeUILight'; */
 @font-face {
-    font-family: "SegoeUILight";
-    src: url("../fonts/SegoeUI/SegoeUILight/SegoeUILight.eot");
-    src: url("../fonts/SegoeUI/SegoeUILight/SegoeUILight.eot?#iefix")format("embedded-opentype"),
-    url("../fonts/SegoeUI/SegoeUILight/SegoeUILight.woff") format("woff"),
-    url("../fonts/SegoeUI/SegoeUILight/SegoeUILight.ttf") format("truetype");
+    font-family: 'SegoeUILight';
+    src: url('../fonts/SegoeUI/SegoeUILight/SegoeUILight.eot');
+    src: url('../fonts/SegoeUI/SegoeUILight/SegoeUILight.eot?#iefix')format('embedded-opentype'),
+    url('../fonts/SegoeUI/SegoeUILight/SegoeUILight.woff') format('woff'),
+    url('../fonts/SegoeUI/SegoeUILight/SegoeUILight.ttf') format('truetype');
     font-style: normal;
     font-weight: normal;
 }
-/* font-family: "SegoeUISemiBold"; */
+/* font-family: 'SegoeUISemiBold'; */
 @font-face {
-    font-family: "SegoeUISemiBold";
-    src: url("../fonts/SegoeUI/SegoeUISemiBold/SegoeUISemiBold.eot");
-    src: url("../fonts/SegoeUI/SegoeUISemiBold/SegoeUISemiBold.eot?#iefix")format("embedded-opentype"),
-    url("../fonts/SegoeUI/SegoeUISemiBold/SegoeUISemiBold.woff") format("woff"),
-    url("../fonts/SegoeUI/SegoeUISemiBold/SegoeUISemiBold.ttf") format("truetype");
+    font-family: 'SegoeUISemiBold';
+    src: url('../fonts/SegoeUI/SegoeUISemiBold/SegoeUISemiBold.eot');
+    src: url('../fonts/SegoeUI/SegoeUISemiBold/SegoeUISemiBold.eot?#iefix')format('embedded-opentype'),
+    url('../fonts/SegoeUI/SegoeUISemiBold/SegoeUISemiBold.woff') format('woff'),
+    url('../fonts/SegoeUI/SegoeUISemiBold/SegoeUISemiBold.ttf') format('truetype');
     font-style: normal;
     font-weight: normal;
 }
@@ -55,7 +55,7 @@ body {
     margin: 0;
     padding: 0;
     font-size: 16px;
-    font-family: "SegoeUIRegular", serif;
+    font-family: 'SegoeUIRegular', serif;
     color: #222;
 
     overflow-x: hidden;
@@ -152,7 +152,7 @@ a, a:hover {
     position: relative;
 }
 .promo-bg {
-    background: url("../images/promo-bg.jpg");
+    background: url('../images/promo-bg.jpg');
     background-size: 100%;
     height: 100vh;
     width: 100%;
@@ -709,7 +709,9 @@ a, a:hover {
 .footer-form {
     width: 100%;
 }
-
+.title--footer {
+    margin: 0 0 20px 0;
+}
 .contacts_list {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -777,37 +779,37 @@ a, a:hover {
     margin: 0 15px 0 0;
 }
 .contacts_value-link--facebook {
-    background: url("../images/ico-facebook.png") no-repeat;
+    background: url('../images/ico-facebook.png') no-repeat;
     background-size: cover;
     width: 45px;
     height: 45px;
 }
 .contacts_value-link--facebook:hover {
-    background: url("../images/ico-fb-hover.png") no-repeat;
+    background: url('../images/ico-fb-hover.png') no-repeat;
     background-size: cover;
     width: 45px;
     height: 45px;
 }
 .contacts_value-link--vkontakte {
-    background: url("../images/ico-vkontakte.png") no-repeat;
+    background: url('../images/ico-vkontakte.png') no-repeat;
     background-size: cover;
     width: 45px;
     height: 45px;
 }
 .contacts_value-link--vkontakte:hover {
-    background: url("../images/ico-vk-hover.png") no-repeat;
+    background: url('../images/ico-vk-hover.png') no-repeat;
     background-size: cover;
     width: 45px;
     height: 45px;
 }
 .contacts_value-link--telegramm {
-    background: url("../images/ico-telegram.png") no-repeat;
+    background: url('../images/ico-telegram.png') no-repeat;
     background-size: cover;
     width: 45px;
     height: 45px;
 }
 .contacts_value-link--telegramm:hover {
-    background: url("../images/ico-telegram-hover.png") no-repeat;
+    background: url('../images/ico-telegram-hover.png') no-repeat;
     background-size: cover;
     width: 45px;
     height: 45px;
