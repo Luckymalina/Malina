@@ -691,8 +691,67 @@ a, a:hover {
     0% { width: 0;}
     100% { width: 70px;}
 }
-
 /* /about me*/
+
+/* reviews */
+.reviews {
+    padding: 90px 0 100px;
+}
+.title--reviews {
+    margin: 0 0 40px 0;
+}
+.reviews__list {
+    list-style: none;
+    margin: 40px -10px 0;
+    padding: 0;
+}
+.reviews__item {
+    position: relative;
+    border: 2px solid #629aca;
+    border-bottom: none;
+    padding: 80px 25px 60px;
+    width: 360px;
+    display: inline-block;
+    margin: 0 20px;
+}
+.reviews__item::before {
+    background: #629aca none repeat scroll 0 0;
+    bottom: -30px;
+    content: "";
+    height: 50px;
+    position: absolute;
+    right: -2px;
+    width: 2px;
+}
+.reviews__item::after {
+    background: #629aca none repeat scroll 0 0;
+    bottom: -16px;
+    content: "";
+    height: 2px;
+    left: -1px;
+    position: absolute;
+    -webkit-transform: rotate(5deg);
+    transform: rotate(5deg);
+    width: 101%;
+}
+.reviews__pic {
+    position: absolute;
+    top: -50px;
+    left: 50%;
+    width: 100px;
+    height: 100px;
+    line-height: 77px;
+    border: 1px solid #629aca;
+    margin: 0 0 0 -50px;
+    padding: 5px 5px;
+    background: #fff;
+}
+
+
+
+
+
+/* /reviews */
 
 /* footer */
 .footer {
@@ -1037,7 +1096,6 @@ a, a:hover {
         width: 100%;
     }
 }
-
 
 @media screen and (min-width: 320px)  and (max-width: 768px) {
     .menu-opener {
