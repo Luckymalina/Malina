@@ -704,15 +704,19 @@ a, a:hover {
     list-style: none;
     margin: 40px -10px 0;
     padding: 0;
+    text-align: center;
 }
 .reviews__item {
     position: relative;
     border: 2px solid #629aca;
     border-bottom: none;
-    padding: 80px 25px 60px;
+    padding: 80px 25px;
     width: 360px;
     display: inline-block;
-    margin: 0 20px;
+    vertical-align: top;
+    margin: 0 20px 85px;
+    box-sizing: border-box;
+    min-height: 330px;
 }
 .reviews__item::before {
     background: #629aca none repeat scroll 0 0;
@@ -746,8 +750,32 @@ a, a:hover {
     padding: 5px 5px;
     background: #fff;
 }
-
-
+.reviews__text {
+    text-align: left;
+    margin: 0 0 20px 0;
+}
+.reviews__author {
+    text-align: left;
+    position: absolute;
+    bottom: 10px;
+}
+.reviews__author--name {
+    color: #353535;
+    font-size: 16px;
+    line-height: 25px;
+    display: block;
+}
+.reviews__author--status {
+    color: #868686;
+    font-size: 16px;
+    line-height: 25px;
+    display: block;
+}
+.reviews__author--link {
+    color: #868686;
+    font-size: 14px;
+    line-height: 20px;
+}
 
 
 
@@ -1056,7 +1084,9 @@ a, a:hover {
     left: 8px;
     background:  #fff;
 }
-
+.menu-opener-inner.open + .menu-opener_text {
+    display:  none;
+}
 
 /* =======================================================================
                              Adaptive
@@ -1232,7 +1262,8 @@ a, a:hover {
     }
 }
 
-@media screen and (min-width: 320px)  and (max-width: 480px) {
+@media screen and (min-width: 300px)  and (max-width: 480px) {
+
     .promo-card_wrap {
         width: 85%;
         margin: 0 auto;
@@ -1248,4 +1279,47 @@ a, a:hover {
     .portfolio-item {
         width: 80%;
     }
+
+    .reviews__item {
+        width: 300px;
+    }
+
+
 }
+
+@media screen and (max-width: 320px) {
+
+    .reviews__list {
+        list-style: none;
+        margin: 40px -10px 0;
+        padding: 0;
+        text-align: center;
+    }
+    .reviews__item {
+        width: 84%;
+        display: block;
+        margin: 0 auto 92px;
+    }
+    .reviews__item::before {
+        background: #629aca none repeat scroll 0 0;
+        bottom: -25px;
+        content: "";
+        height: 31px;
+        position: absolute;
+        right: -2px;
+        width: 2px;
+    }
+    .reviews__item::after {
+        background: #629aca none repeat scroll 0 0;
+        bottom: -13px;
+        content: "";
+        height: 2px;
+        left: -2px;
+        position: absolute;
+        -webkit-transform: rotate(5deg);
+        transform: rotate(5deg);
+        width: 102%;
+    }
+
+}
+
