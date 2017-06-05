@@ -3,8 +3,9 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="initial-scale=1, maximum-scale=1">
-  <title>Веб-разработка, создание сайтов</title>
-
+  <title>Ирина Малиновская. Веб-разработка, создание сайтов, верстка сайтов.</title>
+  <meta name="keywords" content="Портфолио, верстка, html, css, адаптивная, резюме, фронтенд, frontend, adaptive, html верстка, портфолио верстальщика, верстка сайтов, html-верстка">
+  <meta name="description" content="Люблю адаптивную и кроссбраузерную верстку, чистый и лаконичный дизайн, pixel perfect и новинки веб-технологий">
   <!-- styles -->
   <link rel="stylesheet" href="libs/foundation-6.3.1/css/foundation.css">
   <link rel="stylesheet" href="libs/slick-1.6.0/slick/slick.css">
@@ -291,6 +292,18 @@
               </a>
             </li>
             <li class="portfolio-item">
+              <a href="http://setkul.ru" class="portfolio-link">
+                <div class="portfolio-item_wrap">
+                  <img src="images/projects/400-setkul.jpg" alt="">
+                  <div class="portfolio-item_description">
+                    <h2 class="portfolio-item_title">Верстка страниц для сайта по ремонту кондиционеров</h2>
+                    <p>Html, CSS, Bootstrap, Plugins, Fixed layout, Javascript</p>
+                    <span class="mark"><span>*</span>В составе компании Krown</span>
+                  </div>
+                </div>
+              </a>
+            </li>
+            <li class="portfolio-item">
               <a href="" class="portfolio-link">
                 <div class="portfolio-item_wrap">
                   <img src="images/projects/400-actie-rexona.jpg" alt="">
@@ -341,11 +354,22 @@
       <div class="row">
         <div class="small-12 medium-12 columns">
           <div class="about-me-description">
-            <p>Каждый веб-разработчик знает, что такое текст-«рыба». Текст этот, несмотря на название, не имеет никакого
-              отношения к обитателям водоемов. Используется он веб-дизайнерами для вставки на интернет-страницы и демонстрации
-              внешнего вида контента, просмотра шрифтов, абзацев, отступов и т.д. Так как цель применения такого текста
-              исключительно демонстрационная, то и смысловую нагрузку ему нести совсем необязательно. Более того,
-              нечитабельность текста сыграет на руку при оценке качества восприятия макета.
+            <p>
+              Я живу в России, но очень люблю путешествовать. Сейчас я живу в Краснодаре, и работаю удаленно.
+              Первое знакомство с версткой состоялось еще в 2008 году, когда свой первый сайт я сверстала на таблицах.
+              С тех пор прошло достаточно времени чтобы утвердиться в выборе своей профессии, поэтому сейчас я верстальщик
+              с 4-летним опытом в верстке сайтов и лендигов, а также я наставник в htmlacademy на базовом и продвинутом
+              интенсивах. Яркие отзывы моих студентов не дают мне усомниться в выборе деятельности. За 4 года мне довелось
+              поработать как в командах, так и индивидуально на фрилансе. И каждый проект давал мне какой-то
+              результат, повышал мой опыт, давал мне что-то новое. Тесное сотрудничество с дизайнерами и бекенд-разработчиками,
+              личное общение с менеджерами и заказчиками на русском и английском языках.
+              За время практики довелось верстать из ворда и Corel Draw, но с тех пор не берусь за такие "заказы" =)<br>
+
+              Что касается технической стороны моей работы - для меня важно использовать БЭМ, оставлять комментарии в коде, и писать понятный и аккуратный код.
+              Инструменты, которые я использую в работе указаны ниже.<br>
+
+              Я люблю изучать новые техники и методологии. И вообще люблю учиться чему-то новому. Сейчас мне интересен веб-дизайн, а также Javascript, как в чистом виде так и
+              фреймворки чтобы стать полноценным frontend-разработчиком.
             </p>
           </div>
           <div class="about-me-tools">
@@ -599,26 +623,27 @@
     </ul>
     <div class="footer-form">
       <div class="footer-form_title">Или отправьте сообщение:</div>
-      <form action="" class="contacts-form">
+
+      <form method="post" action="form.php" id="contacts-form" class="contacts-form">
         <div class="contacts-form_blocks clearfix">
           <div class="contacts-form--left" >
             <div class="contacts-form_field">
-              <input type="text" class="contacts-form_input" tabindex="1" required>
-              <label for="" class="contacts-form_label">Ваше имя</label>
+              <input id="name" type="text" class="contacts-form_input" name="name"  minlength="2" tabindex="1" required>
+              <label for="name" class="contacts-form_label">Ваше имя</label>
             </div>
             <div class="contacts-form_field">
-              <input type="email" class="contacts-form_input" tabindex="2" required>
-              <label for="" class="contacts-form_label">Ваш email</label>
+              <input id="email" type="email" class="contacts-form_input" name="email" tabindex="2" required>
+              <label for="email" class="contacts-form_label">Ваш email</label>
             </div>
             <div class="contacts-form_field">
-              <input type="tel" class="contacts-form_input" tabindex="3">
-              <label for="" class="contacts-form_label">Ваше телефон</label>
+              <input id="phone" type="tel" class="contacts-form_input" name="phone" tabindex="3">
+              <label for="phone" class="contacts-form_label">Ваш телефон</label>
             </div>
           </div>
           <div class="contacts-form--right">
             <div class="contacts-form_field">
-              <textarea name="" id="" cols="30" rows="10" class="contacts-form_input contacts-form_input--textarea" tabindex="4" required></textarea>
-              <label for="" class="contacts-form_label">Ваше сообщение</label>
+              <textarea id="message" cols="30" rows="10" class="contacts-form_input contacts-form_input--textarea" name="message" tabindex="4" required></textarea>
+              <label for="message" class="contacts-form_label">Ваше сообщение</label>
             </div>
           </div>
         </div>
@@ -626,12 +651,14 @@
           <button type="submit" class="contacts-form_btn" tabindex="5">Отправить</button>
         </div>
       </form>
+
       <div class="success-message">
         <p class="success-message_text">Спасибо за ваше сообщение!<br> Я отвечу Вам в самое ближайшее время.</p>
         <span class="success-message_pic">
           <img src="images/smiley.png" alt="">
         </span>
       </div>
+
     </div>
 
   </div>
@@ -642,6 +669,8 @@
 <!-- scripts -->
 <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
 <script src="https://code.jquery.com/jquery-migrate-3.0.0.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.16.0/jquery.validate.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.16.0/additional-methods.min.js"></script>
 <script src="libs/foundation-6.3.1/js/vendor/foundation.min.js"></script>
 <script src="libs/slick-1.6.0/slick/slick.js"></script>
 <script src="libs/jquery.maskedinput.min.js"></script>

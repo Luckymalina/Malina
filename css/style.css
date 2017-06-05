@@ -695,6 +695,7 @@ a, a:hover {
 
 /* reviews */
 .reviews {
+    display: none;
     padding: 90px 0 100px;
 }
 .title--reviews {
@@ -942,19 +943,28 @@ a, a:hover {
 }
 .contacts-form_input + label {
     position: absolute;
-    top: 11px;
-    left: 10px;
+    top: -23px;
+    left: 0;
+    font-size: 15px;
     -webkit-transition: all linear 0.3s;
     transition: all linear 0.3s;
 }
-.contacts-form_input:focus + label {
-    top: -23px;
-    left: 0;
-}
+/*.contacts-form_input:focus + label,*/
+/*.contacts-form_input:valid + label {*/
+    /*top: -23px;*/
+    /*left: 0;*/
+    /*color: #585858;*/
+/*}*/
 .contacts-form_input--textarea {
     resize: none;
     width: 300px;
     height: 200px;
+}
+.contacts-form_input.error {
+    border: 1px solid red;
+}
+.contacts-form_input.error + label {
+    color: red;
 }
 .contacts-form_btn {
     width: 300px;
@@ -984,8 +994,8 @@ a, a:hover {
     color: #4e4e4e;
 }
 .success-message_pic {
-    width: 150px;
-    height: 150px;
+    width: 115px;
+    height: 120px;
     margin: 40px auto;
     text-align: center;
     display: block;
@@ -1087,6 +1097,22 @@ a, a:hover {
 .menu-opener-inner.open + .menu-opener_text {
     display:  none;
 }
+
+/* страница заглушки */
+.redesign__wrap {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+}
+
+
+
+
+
+
 
 /* =======================================================================
                              Adaptive

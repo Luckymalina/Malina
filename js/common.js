@@ -1,5 +1,4 @@
-$( document ).ready(function() {
-
+$(document).ready(function() {
 
     $('.portfolio-slider').slick({
         // variableWidth: true,
@@ -47,7 +46,7 @@ $( document ).ready(function() {
         if (windscroll >= 100) {
             $('.header-menu_list').addClass('fixed');
             $('section').each(function(i) {
-                if ($(this).position().top <= windscroll - 60) {
+                if ($(this).position().top <= windscroll - 10) {
                     $('.header-menu_link.active').removeClass('active');
                     $('.header-menu_link').eq(i).addClass('active');
                 }
@@ -66,24 +65,53 @@ $( document ).ready(function() {
         $(".mobile-menu, .menu-opener-inner").toggleClass("open");
     });
 
-    //Hide menu on click on page
-    // $('.menu-opener').click(function(e) {
-    //     var $menu = $('.mobile-menu');
-    //
-    //     if ($menu.css('left') != '0') {
-    //         $menu.classList.add("open")
-    //
-    //         var firstClick = true;
-    //         $(document).bind('click.myEvent', function(e) {
-    //             if (!firstClick && $(e.target).closest('.mobile-menu').length == 0) {
-    //                 $menu.hide();
-    //                 $(document).unbind('click.myEvent');
-    //             }
-    //             firstClick = false;
-    //         });
-    //     }
-    //
-    //     e.preventDefault();
-    // });
+    $("#contacts-form").validate({
+        rules: {
+            email: {
+                required: true,
+                email: true
+            }
+        },
+        messages: {
+            name: {
+                required: "Пожалуйста укажите ваше имя",
+                minlength: "Ваше имя должно содержать хотя бы 2 символа"
+            } ,
+            email: {
+                required: "Пожалуйста укажите ваш email"
+            },
+            phone:  {
+                required: "Пожалуйста укажите ваш телефон"
+            },
+            message:  {
+                required: "Добавьте текст вашего сообщения"
+            }
+        },
+        submitHandler: function(form) {
+
+            var to = $('input#to').val();
+            var name = $('input#name').val();
+            var phone = $('input#phone').val();
+            var email = $('input#email').val();
+            var message = $('textarea#message').val();
+
+            // Create variables that will be sent in a URL string to mail.php
+            var dataString = 'to=' + to + '&name='+ name + '&email=' + email + '&phone=' + phone + '&message=' + message;
+
+            $.ajax({
+                type: 'POST',
+                url: './form.php',
+                data: dataString,
+                success: function() {
+                    $('.contacts-form').css('display','none');
+                    $('.footer-form_title').css('display','none');
+                    $('.success-message').css('display','block');
+                }
+            });
+            return false;
+        }
+    });
+
+
 
 });
